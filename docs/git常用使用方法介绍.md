@@ -73,7 +73,7 @@ git pull origin master
 `git add .` ——将当前目录下修改的所有代码从工作区添加到暂存区，`.` 代表当前目录
 `git commit -m '注释'`——将缓存区内容提交到本地仓库，并备注提交内容
 `git pull origin <远程分支名>`——先将远程仓库同步到本地
-`git push origin <远程分支名>` ——将本地版本库推送到远程服务器
+`git push origin <本地分支名>` ——将本地版本库推送到远程服务器
 
 `git log` —— 查看历史提交记录。
 
