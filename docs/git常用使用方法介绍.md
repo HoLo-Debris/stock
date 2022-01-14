@@ -32,7 +32,7 @@ Enter file in which to save the key (/Users/debris/.ssh/id_rsa):
 # 默认存储在 ~ 目录下的.ssh目录中，本地与远端连接时，会到.ssh目录寻找密钥文件
 ```
 
-&emsp;&emsp;在Github个人中心-设置中，我们可以看到`SSH keys and GPG keys`选项，点击`new ssh key`将公钥文件中的内容填入即可。
+&emsp;&emsp;在Github个人中心-设置中，我们可以看到`SSH keys and GPG keys`选项，点击`new ssh key`将公钥文件中的内容填入即可。(关于GPG keys，则是进行对commit进行签名验证相关的密钥)
 
 &emsp;&emsp;之后可以在本地测试是否可以连接上：
 
@@ -82,10 +82,8 @@ git pull origin master
 ##### 2.2 fork与pull
 
 &emsp;&emsp;这两个命令得到的项目中，都带有提交历史和分支信息，但又存在着一些差别。
-
-&emsp;&emsp;如果说想要向别人的项目中提交代码，可以先`fork`复制到自己的Github仓库中，也就是从该项目的版本产生一个分支，自己修改之后，可以通过`pull request`发起代码提交请求，之后，代码评审完成通过，管理员可以将代码变更合并(merge)到原项目中。
-
-&emsp;&emsp;而如果由pull拉取的代码，则是将远程分支拉取并合并到本地。
+&emsp;&emsp;如果说想要向别人的项目中提交代码，需要先**fork**复制到自己的Github仓库中，也就是从该项目的版本产生一个分支，自己修改之后，(远端仓库)可以通过**pull request**发起代码提交请求，之后，代码评审完成通过，管理员可以将代码变更合并(merge)到原项目中。
+&emsp;&emsp;而如果使用pull拉取别人项目的代码，一般是通过**git pull <项目链接>** 的方式，这种情况下，无法直接向原项目提交**pull request**请求。通常我们在自己的项目中的工作流程是，本地使用**git pull**拉取远端分支，本地修改完代码，使用**git push**将本地分支推送到远端，这个时候，远端会看到一个临时分支，这个分支可以进行**pull request**。而对于别人的仓库,就需要我们先在远端**fork**一个仓库，之后由fork的仓库**pull request**。
 
 #### 3. 注意事项
 
