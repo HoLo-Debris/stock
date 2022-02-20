@@ -32,6 +32,7 @@ export default {
 
 <style lang="less" scoped>
     .el-header {
+        padding: 0;
     }
     .el-main {
         padding-top: 0;

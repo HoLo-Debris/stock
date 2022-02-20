@@ -89,25 +89,25 @@ export default {
                     color: "#ffb980"
                 },
                 {
-                    name: '今日支付订单',
+                    name: '今日预购',
                     value: 210,
                     icon: "s-goods",
                     color: "#5ab1ef"
                 },
                 {
-                    name: '今日支付',
+                    name: '昨日支付',
                     value: 1234,
                     icon: "success",
                     color: "#2ec7c9"
                 },
                 {
-                    name: '今日收藏',
+                    name: '昨日收藏',
                     value: 1234,
                     icon: "star-on",
                     color: "#ffb980"
                 },
                 {
-                    name: '今日支付订单',
+                    name: '还有一个',
                     value: 210,
                     icon: "s-goods",
                     color: "#5ab1ef"

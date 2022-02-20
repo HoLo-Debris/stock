@@ -1,8 +1,8 @@
 <template>
     <header>
         <div class="l-content">
-            <el-button @click="handleClickMenu" plain icon="el-icon-d-arrow-left" size="mini"></el-button>
-            <h3 style="color:#fff">首页</h3>
+            <el-button @click="handleClickMenu" plain class="el-icon-d-arrow-left" size="mini"></el-button>
+            <h3 style="color:#000">首页</h3>
         </div>
         <div class="r-content">
             <el-dropdown trigger="hover" size="mini">
@@ -39,18 +39,25 @@ export default {
 header {
     display: flex;
     height: 100%;
+    width: 100%;
+    margin-left: 0;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
+    background-color: #FFFFFF;
+    opacity: 0.7;
 }
 .l-content {
     display: flex;
+    float: left;
+    padding-left: 10px;
     align-items: center;
     .el-button {
         margin-right: 20px;
     }
 }
 .r-content {
+    float: right;
+    padding-right: 15px;
     .user {
         width: 40px;
         height: 40px;

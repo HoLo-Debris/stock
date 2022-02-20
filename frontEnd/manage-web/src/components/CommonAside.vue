@@ -28,7 +28,7 @@
   .el-menu {
       height: 100%;
       border-style: double;
-      border-radius: 6px;
+      /* border-radius: 6px; */
       box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
       h3 {
           color: #FFFFFF;
@@ -51,8 +51,8 @@
                 url: '/Home/home'
             },
             {
-                path: '/mall',
-                name: 'mall',
+                path: '/tendency',
+                name: 'tendency',
                 label: '走势',
                 icon: 'data-line',
                 url: '/MallManage/MallManage'
@@ -80,7 +80,7 @@
                         name: 'page2',
                         label: '页面2',
                         icon: 'settings',
-                        url: 'Others/PageTwe'
+                        url: 'Others/PageTw0'
                     }
                 ]
             }

@@ -1,11 +1,10 @@
 <template>
-    <div class="user">
-        <h1>这是用户管理界面</h1>
-    </div>
+    <h1>这里是趋势分析页面</h1>
 </template>
+
 <script>
 export default {
-    name: 'UserPage',
+    name: 'tendencyPage',
     data() {
         return {}
     }
