@@ -1,8 +1,6 @@
-# stock
-A web system used for making prediction for stock market based on machine learning.
+## Stock analysis system
+&emsp;&emsp;A web system used for making prediction for stock market based on machine learning.
 
-## Introduction
-
-The direcory frontEnd includes source code and test code of build frontEnd.  
-The direcory backEnd includes source code and test code of back end.  
-The direcory docs includes some documents about this project.  
+### Welcome to contribute
+&emsp;&emsp;If you have some good ideas, I'd appreciate it if you submit the issue or some code.
+&emsp;&emsp;If you want to contribute, please read the commit_rules.md under the docs directory.
